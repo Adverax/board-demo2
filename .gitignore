@@ -1,0 +1,16 @@
+.idea/
+*.db
+/bin/
+.audit/
+coverage.out
+meta/agent-journal.yml
+meta/gate-runs.yml
+meta/kanban/.merge.lock*
+meta/kanban/dispatcher.state*
+
+# ─── forge ─────────────────────────────── git_tracking.preset: solo ───
+# Regenerate: /forge:init gitignore
+meta/architecture/handoff.md
+.forge-staging-*/
+.forge-migration-*/
+# ────────────────────────────────────────────────────────────────────────────
